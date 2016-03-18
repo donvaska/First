@@ -18,6 +18,7 @@ public class Calculator {
     }
 
     public static void calc(String u, int i, int o) {
+<<<<<<< HEAD
         int a = 0;
         switch (u) {
         case "+":
@@ -35,6 +36,25 @@ public class Calculator {
         case "/":
             a = i / o;
             System.out.println("განაყოფი" + a);
+=======
+        String opa = u;
+        switch (opa) {
+        case "+":
+            int a = i + o;
+            System.out.println("ჯამი:" + a );
+            break;
+        case "-":
+            int g = i - o;
+            System.out.println("სხვაობა" + g);
+            break;
+        case "*":
+            int j = i * o;
+            System.out.println("ნამრავლი" + j);
+            break;
+        case "/":
+            int l = i / o;
+            System.out.println("განაყოფი" + l);
+>>>>>>> upstream/master
             break;
         }
     }
