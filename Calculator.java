@@ -1,52 +1,52 @@
 import java.util.*;
-public class Calculator{
-	public static void main(String[] args) {
+public class Calculator {
+    public static void main(String[] args) {
 
- 		Scanner sc = new Scanner(System.in);
- 		 System.out.println("პირველი რიცხვი:");
+        Scanner sc = new Scanner(System.in);
+        System.out.println("პირველი რიცხვი:");
         int i = sc.nextInt();
-         
-        Scanner sc2 = new Scanner(System.in); 
-         System.out.println("ოპერაცია");
+
+        Scanner sc2 = new Scanner(System.in);
+        System.out.println("ოპერაცია");
         String u = sc2.nextLine();
 
         Scanner sc1 = new Scanner(System.in);
-         System.out.println("მეორე რიცხვი");
-        int o =sc1.nextInt();
+        System.out.println("მეორე რიცხვი");
+        int o = sc1.nextInt();
 
-          
-       }
-    
-        public static void calc(String u,int i,int o){
-              String opa = u;
-           switch (opa) {
-         	case "+":
-         	 int a = i + o;
-         	 System.out.println("ჯამი:" + a );
+
+    }
+
+    public static void calc(String u, int i, int o) {
+        String opa = u;
+        switch (opa) {
+        case "+":
+            int a = i + o;
+            System.out.println("ჯამი:" + a );
             break;
-            case "-":
-             int g = i - o;
-             System.out.println("სხვაობა" + g);
+        case "-":
+            int g = i - o;
+            System.out.println("სხვაობა" + g);
             break;
-            case "*":
-             int j = i * o;
-             System.out.println("ნამრავლი" + j);
+        case "*":
+            int j = i * o;
+            System.out.println("ნამრავლი" + j);
             break;
-            case "/":
-             int l = i / o;
-             System.out.println("განაყოფი" + l);
+        case "/":
+            int l = i / o;
+            System.out.println("განაყოფი" + l);
             break;
         }
-      }
-        
-        
-  }
- 
+    }
+
+
+}
 
 
 
 
 
 
-	
+
+
 
