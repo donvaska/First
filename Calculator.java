@@ -18,8 +18,7 @@ public class Calculator {
     }
 
     public static void calc(String u, int i, int o) {
-        String opa = u;
-        switch (opa) {
+        switch (u) {
         case "+":
             int a = i + o;
             System.out.println("ჯამი:" + a );
